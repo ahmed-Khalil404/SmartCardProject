@@ -1,0 +1,16 @@
+APDU hex to avoid : 
+
+0xA4
+0xB0
+0xD6
+
+in general we can say : 
+
+    0x00 to 0x7F: Interindustry commands, available for use by any application.
+    0x80 to 0x9F: Reserved for use by the card issuer.
+    0xA0 to 0xBF: Reserved for use by the application as defined in ISO/IEC 781>
+    0xC0 to 0xFF: Proprietary commands, used for custom commands specific to an>
+
+I'll just try to avoid them for now i have to write this in the pdf later.
+
+
